@@ -1,0 +1,13 @@
+{
+    "4_star_pity": 5,
+    "5_star_pity": 0,
+    "4_star_prob": 10,
+    "5_star_prob": 0, 
+    "outfits": {
+        "Pink Ribbon Waltz": {
+            "pieces": 8,
+            "rarity": 4,
+            "copies": 1
+        }
+    }
+}

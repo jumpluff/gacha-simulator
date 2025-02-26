@@ -1,0 +1,17 @@
+{
+    "4_star_pity": 0,
+    "5_star_pity": 0,
+    "4_star_prob": 11.5,
+    "5_star_prob": 6.06, 
+    "outfits": {
+        "Blooming Dreams": {
+            "rarity": 5,
+            "pieces": 10,
+            "copies": 1
+        },
+        "Moment Capturer": {
+            "rarity": 4,
+            "pieces": 10
+        }
+    }
+}

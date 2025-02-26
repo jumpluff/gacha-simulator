@@ -1,0 +1,48 @@
+{
+    "4_star_pity": 10,
+    "5_star_pity": 20,
+    "4_star_prob": 3.29,
+    "5_star_prob": 1.5, 
+    "outfits": {
+        "Crystal Poems": {
+            "rarity": 5,
+            "pieces": 10,
+            "tidal_guidance": 0,
+            "copies": 1
+        },
+        "Whisper of Waves": {
+            "rarity": 5,
+            "pieces": 9,
+            "tidal_guidance": 2,
+            "copies": 1
+        },
+        "Blossoming Stars": {
+            "rarity": 5,
+            "pieces": 9,
+            "tidal_guidance": 3,
+            "copies": 1
+        },
+        "Fairytale Swan": {
+            "rarity": 5,
+            "pieces": 9,
+            "tidal_guidance": 4,
+            "copies": 1
+        },
+        "Shark Mirage": {
+            "rarity": 4,
+            "pieces": 9
+        },
+        "Forest's Fluttering": {
+            "rarity": 4,
+            "pieces": 10
+        },
+        "Breezy Tea Time": {
+            "rarity": 4,
+            "pieces": 8
+        },
+        "Sweet Jazz Nights": {
+            "rarity": 4,
+            "pieces": 8
+        }
+    }
+}

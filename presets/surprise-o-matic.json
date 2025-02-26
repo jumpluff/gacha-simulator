@@ -1,0 +1,84 @@
+{
+    "4_star_pity": 0,
+    "5_star_pity": 0,
+    "4_star_prob": 1.6,
+    "5_star_prob": 0.8,
+    "pull_cost": 20000,
+    "pull_unit": "Blings",
+    "no_duplicates": true,
+    "outfits": {
+        "Snowflakes Calling": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Subzero Elegance": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Winter Love Song": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Snowy Dawn": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Gale Strategy": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Midnight Stroll": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Hazy Glow": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Stellar Leaps": {
+            "rarity": 5,
+            "pieces": 1
+        },
+        "Verdant Dance": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Ethereal Midnight": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Dark Bolt": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Rosy Shadow": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Misty Blue": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Mature Short Hair": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Chestnut Serenade": {
+            "rarity": 4,
+            "pieces": 1,
+            "copies": 1
+        },
+        "Curtain Flutter": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Sunlit Bloom": {
+            "rarity": 4,
+            "pieces": 1
+        },
+        "Starry Tango": {
+            "rarity": 4,
+            "pieces": 1
+        }
+    }
+}
