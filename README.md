@@ -76,10 +76,11 @@ Outfits are objects with any name with the following structure:
 > 
 > `copies`: optional; positive integer. Tracks target # of copies as desired outfits and will roll until all copies across all outfits are obtained. At least one outfit with `copies` >= 1 is required
 
-A set of json files for the following types of banners are included in the ` presets` folder:
+A set of json files for the following types of banners are included in the `presets` folder:
 * 4-star
 * 5-star
 * Distant Sea
+* Distant Sea 4-stars
 * Surprise-O-Matic
 * 5-star using consolidated probability
 * 5-star using an exponential pity formula (use your own values)

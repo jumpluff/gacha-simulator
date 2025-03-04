@@ -41,7 +41,6 @@ def getPity(values):
 
 def checkPity(pity):
     pity = int(pity)
-    
     return pity
 
 def getProb(values):

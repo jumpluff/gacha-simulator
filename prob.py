@@ -55,18 +55,17 @@ class randPool:
         if not index is None:
             outfit = pool[index]
             removeFromList(pool, index)
-            
             self.pool.updateClothesCount(outfit)
-
             self.checkAndReplenishOutfit(outfit, rarity, results)
 
     def getPiece(self, rarity, pool):
-        if len(pool) > 0:
+        pool_size = len(pool)
+        if pool_size > 0:
             if self.pool.hasTidalGuidance(rarity):
                 tidal_guidance_outfit = self.pool.tidalGuidanceOutfit(rarity)
                 index = pool.index(tidal_guidance_outfit)
             else:
-                index = self.rng.integers(len(pool))
+                index = self.rng.integers(pool_size)
 
             return index
     
@@ -88,10 +87,7 @@ class trialResults:
     def __init__(self):
         self.completed = {}
         self.pulls = 0
-        self.pulled = {
-            4: 0,
-            5: 0
-        }
+        self.pulled = {4: 0, 5: 0}
 
     def completedOutfit(self, outfit):
         if not outfit in self.completed:

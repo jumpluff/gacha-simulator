@@ -42,14 +42,16 @@ class clothesPool:
         return sum(getPiecesForOutfit(self, outfit) for outfit in self.targets)
 
     def hasTidalGuidance(self, rarity):
-        return len(self.trial_tidal_guidance[rarity])
+        return len(self.trial_tidal_guidance[rarity]) > 0
 
     def tidalGuidanceOutfit(self, rarity):
         return self.trial_tidal_guidance[rarity][0]
         
     def removeFromTidalGuidance(self, rarity):
         if self.hasTidalGuidance(rarity):
-            self.trial_tidal_guidance[rarity].pop(0)
+            tidal_guidance = self.trial_tidal_guidance[rarity]
+            tidal_guidance[0] = tidal_guidance[-1]
+            tidal_guidance.pop()
 
     def checkEmpty(self, outfit_name):
         return self.trial_clothes_count[outfit_name] <= 0
@@ -60,14 +62,13 @@ def addOutfitToPool(self, outfit_name, outfit):
     self.addOutfit(outfit_name)
 
 def checkTarget(self, outfit, outfit_name):
-    if outfit.get('copies'):
-        number_copies = outfit.get('copies')
+    number_copies = outfit.get('copies')
+    if number_copies:
         if not int(number_copies) and int(number_copies) > 0:
             raise ParseError('Number of copies must be a positive integer.')
         if self.no_duplicates and number_copies > 1:
             raise ParseError('Number of copies should not exceed 1 if no_duplicates is true.')
         self.targets += [outfit_name] * number_copies
-
         return number_copies
 
 def checkTidalGuidance(self, tidal_guidance, outfit_name):
@@ -90,7 +91,6 @@ def sortTidalGuidance(self):
     tidal_guidance = self.tidal_guidance
     for rarity in tidal_guidance:
         sorted_tidal_guidance[rarity] = [v for (k, v) in sorted(tidal_guidance[rarity].items(), key=lambda item: int(item[0]))]
-    
     return sorted_tidal_guidance
 
 def getPiecesForOutfit(self, outfit_name):
